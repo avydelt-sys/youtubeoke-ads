@@ -1,0 +1,101 @@
+{
+  "banner_ads": [
+    {
+      "id": "banner_promo_1",
+      "type": "banner",
+      "title": "🎤 USB Microphone Sale!",
+      "description": "High quality USB mic for karaoke - ₱499 only!",
+      "image_url": "",
+      "click_url": "https://shopee.ph/search?keyword=usb%20microphone",
+      "background_color": "#E91E63",
+      "text_color": "#FFFFFF",
+      "active": true,
+      "priority": 8
+    },
+    {
+      "id": "banner_promo_2",
+      "type": "banner",
+      "title": "📱 Phone as Mic - FREE!",
+      "description": "Download WO Mic app - Turn phone into wireless mic!",
+      "image_url": "",
+      "click_url": "https://wolicheng.com/womic/",
+      "background_color": "#2196F3",
+      "text_color": "#FFFFFF",
+      "active": true,
+      "priority": 7
+    },
+    {
+      "id": "banner_premium",
+      "type": "banner",
+      "title": "⭐ YouTubeOke Premium",
+      "description": "No ads + Priority support - ₱199/year only!",
+      "image_url": "",
+      "click_url": "https://facebook.com/youtubeoke",
+      "background_color": "#FF9800",
+      "text_color": "#FFFFFF",
+      "active": true,
+      "priority": 10
+    },
+    {
+      "id": "banner_refer",
+      "type": "banner",
+      "title": "🎁 Refer a Friend!",
+      "description": "Get 1 month FREE when friend subscribes!",
+      "image_url": "",
+      "click_url": "https://facebook.com/youtubeoke",
+      "background_color": "#9C27B0",
+      "text_color": "#FFFFFF",
+      "active": true,
+      "priority": 6
+    }
+  ],
+  "popup_ads": [
+    {
+      "id": "popup_premium",
+      "type": "popup",
+      "title": "🎉 Great Performance!",
+      "description": "Upgrade to YouTubeOke Premium para walang ads at mas maraming features!",
+      "image_url": "",
+      "click_url": "https://facebook.com/youtubeoke",
+      "button_text": "Upgrade Now - ₱199/year",
+      "skip_after_seconds": 3,
+      "background_color": "#4CAF50",
+      "active": true,
+      "priority": 10
+    },
+    {
+      "id": "popup_share",
+      "type": "popup",
+      "title": "📣 Share YouTubeOke!",
+      "description": "I-share sa friends mo at makakuha ng 1 month FREE subscription!",
+      "image_url": "",
+      "click_url": "https://facebook.com/youtubeoke",
+      "button_text": "Share on Facebook",
+      "skip_after_seconds": 3,
+      "background_color": "#3B5998",
+      "active": true,
+      "priority": 8
+    },
+    {
+      "id": "popup_rate",
+      "type": "popup",
+      "title": "⭐ Nagustuhan mo ba?",
+      "description": "I-rate kami sa Facebook at mag-iwan ng review!",
+      "image_url": "",
+      "click_url": "https://facebook.com/youtubeoke/reviews",
+      "button_text": "Rate 5 Stars ⭐",
+      "skip_after_seconds": 3,
+      "background_color": "#FF5722",
+      "active": true,
+      "priority": 6
+    }
+  ],
+  "settings": {
+    "banner_refresh_minutes": 5,
+    "popup_interval_minutes": 60,
+    "show_popup_after_score": true,
+    "ad_provider": "self_hosted",
+    "version": "1.0",
+    "last_updated": "2024-12-25T00:00:00"
+  }
+}
